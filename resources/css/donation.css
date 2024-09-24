@@ -4,12 +4,12 @@ body {
     background-color: #f7f8f8;
     color: #16423C;
     margin: 0;
-    font-size:1.2vw;
+    font-size:2vw;
     padding: 0;
 }
 #banner h1
 {
-    font-size: 2vw;   
+    font-size: 5vw;   
 }
 
 header {
@@ -19,7 +19,7 @@ header {
     padding: 50px 20px;
 }
 p{
-    font-size:1.2vw;
+    font-size:2vw;
 }
 
 
@@ -33,7 +33,7 @@ section {
 }
 
 h2 {
-    font-size: 2vw;
+    font-size: 4vw;
     margin-bottom: 20px;
 }
 
@@ -43,7 +43,7 @@ ul {
 }
 
 ul li {
-    font-size: 1.2vw;
+    font-size: 2vw;
     margin-bottom: 10px;
 }
 
@@ -54,13 +54,13 @@ form {
 }
 
 label {
-    font-size: 1.2vw;
+    font-size: 2vw;
     margin-top: 20px;
 }
 
 input {
     padding: 10px;
-    font-size: 1.2vw;
+    font-size: 2vw;
     margin-top: 5px;
     border: 1px solid #ccc;
     border-radius: 5px;
