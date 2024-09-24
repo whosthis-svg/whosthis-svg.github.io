@@ -1,7 +1,6 @@
 /* Body and Typography */
 body {
     font-family: 'Inria Sans';
-    font-size:larger;
     color: #16423C;
     margin: 0;
     background-color: #f4f4f9;
@@ -20,14 +19,14 @@ header {
 }
 
 header h1 {
-    font-size: 3vw;
+    font-size: 5vw;
     font-weight: bold;
     margin-bottom: 10px;
     text-transform: uppercase;
 }
 
 header p {
-    font-size: 1.5vw;
+    font-size: 2.5vw;
     font-weight: 300;
     text-align: center;
 }
@@ -48,7 +47,7 @@ section:hover {
 }
 
 h2 {
-    font-size: 2.5vw;
+    font-size: 4vw;
     color: #16423C;
     text-align: center;
     margin-bottom: 30px;
@@ -67,7 +66,7 @@ h2::after {
 
 /* Text and List Styling */
 p, li {
-    font-size: 1.2vw;
+    font-size: 2vw;
     margin-bottom: 20px;
     text-align: justify;
 }
@@ -80,7 +79,7 @@ ul {
 ul li {
     background: url('./resources/images/checkmark.png') no-repeat left center;
     padding-left: 30px;
-    font-size: 1.2vw;
+    font-size: 2vw;
     line-height: 1.8;
 }
 
@@ -103,7 +102,7 @@ ul li {
 }
 
 .leader h3 {
-    font-size: 1.8vw;
+    font-size: 3vw;
     font-weight: bold;
     margin-bottom: 10px;
     color: #20b2aa;
@@ -125,7 +124,7 @@ footer {
 }
 
 footer p {
-    font-size: 1.2vw;
+    font-size: 2vw;
 }
 
 footer a {
