@@ -37,7 +37,7 @@ header h1
 header h2
 {
     font-family: 'Inria Sans';
-    font-size: 1vw;
+    font-size: 2vw;
     margin-top: 30px;
     padding-top: 5px;
     padding-bottom: 0px;
@@ -73,7 +73,7 @@ nav li a {
   }
 nav li a:hover {
     background-color:linear-gradient(90deg, #333,#E9EFEC);
-    font-size: 22px;
+    font-size: 1.8em;
     border-bottom:#33a193 5px inset;
     padding-bottom: 5px;
     margin-bottom: 5px;
@@ -118,7 +118,7 @@ nav li a:hover {
     border:#105c49 5px solid;
     margin-top: 0vh;
     transform-origin: bottom left; /* Rotate around the bottom left */
-    transform: rotate(-5deg);
+   
   }
 #leaf-2{
     max-width: 20vw;
@@ -131,18 +131,8 @@ nav li a:hover {
     transform-origin: bottom right; /* Rotate around the bottom right */
     transform: rotate(5deg);
 }
-@keyframes leafAnimation {
-    0% {transform: rotate(-2deg);}
-    50% {transform: rotate(2deg);}
-    100% {transform: rotate(-2deg);}
-}
-#leaf-1 {
-    animation: leafAnimation 10s infinite;
-    animation-delay: 1s;
-}
-#leaf-2 {
-    animation: leafAnimation 10s infinite;
-}
+
+
 
 #introduction-text h2{
     color: #10b447;
