@@ -63,6 +63,7 @@ nav li {
   
 nav li a {
     display: block;
+    font-size:larger;
     color: rgb(255, 255, 255);
     text-align: center;
     padding: 0px 16px;
@@ -216,6 +217,7 @@ nav li a:hover {
     text-align: left;    
     line-height: 2.5vh;
     word-spacing: 5px;
+    font-size:larger;
     
 }
 
@@ -226,6 +228,7 @@ nav li a:hover {
 }
 #projects-section {
     text-align: left;
+    font-size:larger;
     padding: 50px;
     height:60vh;
   }
@@ -463,7 +466,7 @@ button a{
 button{
     border: none;
     cursor: pointer;
-    font-size: 1.4em;  
+    font-size: larger;
     background-color: #fff;
     border-radius: 5px; 
   
