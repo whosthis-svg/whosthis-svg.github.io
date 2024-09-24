@@ -1,0 +1,477 @@
+@font-face {
+    font-family: 'Plaster';
+    src: url('../fonts/Plaster/Plaster-Regular.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'Poppins';
+    src: url('../fonts/Poppins/Poppins-Regular.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'Inria Sans';
+    src: url('../fonts/Inria_Sans/InriaSans-Regular.ttf') format('truetype');
+}
+/* Body and Typography */
+body {
+    background-color: #ffffff;
+    font-family: 'Poppins';
+    font-size: larger;
+    margin: 0;
+}
+nav{
+    position:sticky;
+    z-index:1;
+    top:0;
+    width:100%;
+    background-color:#16423C
+}
+header h1
+{
+    font-family:Plaster; 
+    font-size: 3em;
+    margin: 0px;
+    padding-top: 20px;
+    line-height: 0px;
+    letter-spacing: 2px;
+    color:#16423C;
+}
+header h2
+{
+    font-family: 'Inria Sans';
+    font-size: .8em;
+    margin-top: 30px;
+    padding-top: 5px;
+    padding-bottom: 0px;
+    padding-bottom: 0px;
+    line-height: 0px;
+    letter-spacing: 12px;
+    padding-left:10px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    top:0px;
+    opacity: 0.8;
+   
+  }
+  
+nav li {
+    float: right;
+  }
+  
+nav li a {
+    display: block;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 0px 16px;
+    font-size: 20px;
+    text-decoration: none;
+    font-family:'Inria Sans'; 
+    transition: 0.5s ease-in;
+  }
+nav li a:hover {
+    background-color:linear-gradient(90deg, #333,#E9EFEC);
+    font-size: 22px;
+    border-bottom:#33a193 5px inset;
+    padding-bottom: 5px;
+    margin-bottom: 5px;
+    transition: 0.5s ease-in;
+    color:#43e6d0;
+  }
+#banner{
+    background-image: url('https://images.unsplash.com/photo-1497375638960-ca368c7231e4?q=80&w=2040&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 250px;
+    width: 100%;
+    position: relative;
+    z-index: -1;
+    
+}
+
+#overlay{
+    background-image: linear-gradient(0deg, #080808ea,#0f352257);
+    height: 250px;
+    width: 100%;
+    position: absolute;
+    left: 0;
+    z-index: 0;
+}
+#logo{
+    width: 300px;
+    height: 150px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+}
+#introduction-image img{
+    width: 250px;
+    height: 250px;
+    border-radius: 50% 0%;
+    float: left;
+    border:#16423C 5px solid;
+    margin-left: 200px;
+    margin-top: 50px;
+    transform-origin: bottom left; /* Rotate around the bottom left */
+    animation: rotate-image 10s infinite ease-in-out; /* Slight, slow animation */
+}
+
+#introduction-text h2{
+    color: #10b447;
+    margin-bottom: 0px;
+}
+
+#leaf{
+    width:300px;
+    height: 300px;
+    position: absolute;
+    z-index: -1;
+    background-color: #144620;
+    border-radius: 0% 50%;
+    transform-origin:0% 0%;
+    transform-origin: bottom right; /* Rotate around the bottom right */
+    animation: rotate-leaf 10s infinite ease-in-out; /* Slight, slow animation */
+}
+
+
+/* Keyframes for the image rotation */
+@keyframes rotate-image {
+    0% {
+        transform: rotate(0deg);
+    }
+    50% {
+        transform: rotate(2deg); /* Slight rotation */
+    }
+    100% {
+        transform: rotate(0deg);
+    }
+}
+
+/* Keyframes for the leaf rotation */
+@keyframes rotate-leaf {
+    0% {
+        transform: rotate(0deg);
+    }
+    50% {
+        transform: rotate(-2deg); /* Slight rotation */
+    }
+    100% {
+        transform: rotate(0deg);
+    }
+}
+#leaf2{
+    width:200px;
+    height: 200px;
+    margin-left: 150px;
+    position: absolute;
+    z-index: -2;
+    background-color: #6da01c;
+    border-radius: 50% 0%;
+    transform: rotate(-5deg);
+}
+#stem {
+    width: 10px;
+    height: 50vh;
+    background: linear-gradient(to bottom, #144620, #6da01c); /* Static gradient for backup */
+    position: absolute;
+    z-index: -2;
+    margin-left: 200px;
+    margin-top: 200px;
+    background-size: 100% 300%; /* Make the background larger to enable the flow */
+    animation: gradient-flow 5s infinite ease-in-out; /* Animation for the gradient flow */
+}
+
+/* Keyframes for the gradient animation */
+@keyframes gradient-flow {
+    0% {
+        background-position: 100% 0%; /* Start at the top */
+    }
+    50% {
+        background-position: 100% 100%; /* Flow to the bottom */
+    }
+    100% {
+        background-position: 100% 0%; /* Return to the top */
+    }
+}
+
+/* Introduction Section */
+#introduction-section {
+    text-align: center;
+    margin: 50px auto;
+    padding: 20px;
+    border-radius: 10px;
+    width: 80%;
+    height:50vh;
+ 
+    display: flex;
+}
+#introduction-text{
+    padding-left: 50px;
+    margin-top: 0px;
+    text-align: left;    
+    line-height: 4.5vh;
+    word-spacing: 5px;
+    
+}
+
+/* Projects Section */
+#projects-section h2{
+    color: #642609;
+    margin-bottom: 0px;
+}
+#projects-section {
+    text-align: left;
+    padding: 50px;
+    height:60vh;
+  }
+  
+  .card-container {
+    position: relative;
+    width: 30vw;
+    margin: 0 auto;
+    float:left;
+  }
+  
+  .card {
+    position: absolute;
+    width: 100%;
+    height: 30vh;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    opacity: 0.6; /* Start with all cards slightly visible */
+    transition: opacity 1s ease-in-out;
+    animation: fadeSequence 12s infinite ease-in-out; /* Each card will animate in sequence */
+  }
+  
+  .card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    object-position: top;
+    filter: grayscale(0%); /* All images start as grayscale */
+    transition: filter 1s ease-in-out;
+  
+  }
+  
+  /* The text overlay */
+  .card-text {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgb(0, 0, 0);
+    color: white;
+    padding: 10px;
+    text-align: left;
+  }
+  
+  .card-text h3 {
+    margin: 0;
+  }
+  
+  .card-text p {
+    margin: 5px 0 0;
+  }
+  
+  /* Different positions for each card to create the stack */
+  .card:nth-child(2) {
+    left: 32vw;
+  }
+  
+  .card:nth-child(3) {
+    left: 64vw;
+  }
+  
+  /* Keyframes for the animation */
+  @keyframes fadeSequence {
+    0%, 25% {
+      opacity: 1;
+      z-index: 1;
+    }
+    33%, 100% {
+      opacity: 0.4;
+      
+    }
+}
+
+  
+  
+  /* Apply animation delay to stagger each card */
+  .card:nth-child(1) {
+    animation-delay: 0s;
+  }
+  
+  .card:nth-child(2) {
+    animation-delay: 4s; /* Delayed start for the second card */
+  }
+  
+  .card:nth-child(3) {
+    animation-delay: 8s; /* Delayed start for the third card */
+  }
+  
+
+  
+
+
+
+
+
+
+/* Get Involved and Donate Sections */
+#getinvolved-section, #donate-section {
+    text-align: center;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #f7f8f8;
+    border-radius: 10px;
+    width: 80%;
+}
+
+
+/* Featured Story Styling */
+#highlighted-story {
+    background-color: #1d8f8f;
+    color:aliceblue;
+    text-align: center;
+    padding: 50px;
+    margin: 50px auto;
+    width: 80%;
+    border-radius: 10px;
+    display: flex;
+    
+}
+
+.featured-story-img {
+    max-width: 100%;
+    height:40vh;
+    margin-top: 4vh;
+    border-radius: 10px;
+    margin-left:40px;
+ 
+}
+#highlighted-story h2 {
+    text-align: left;
+    margin-right:10px;
+    color:#a8ffff;
+   
+}
+#highlighted-story button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #1d8f8f;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    font-size: 15px;
+}
+
+#highlighted-story p {
+    text-align: left;
+    line-height: 2;
+    
+}
+.read-more {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #16423C;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.read-more:hover {
+    background-color: #0f2d29;
+}
+
+/* Testimonials Styling */
+#testimonials-section {
+    background-color: #ffffff;
+    text-align: center;
+    padding: 50px;
+    margin: 50px auto;
+    width: 80%;
+    border-radius: 10px;
+}
+
+.testimonial {
+    border-left: 5px solid #16423C;
+    color: #16423C;
+    padding: 20px;
+    border-radius: 0 0 20px 0;
+    margin: 20px 0;
+    font-style: italic;
+}
+
+#donate-section {
+    background-color: #ffffff;
+    text-align: center;
+    padding: 50px;
+    margin: 50px auto;
+    width: 80%;
+    border-radius: 10px;
+}
+#getinvolved-section {
+    background-color: #ffffff;
+    text-align: center;
+    padding: 50px;
+    margin: 50px auto;
+    width: 80%;
+    border-radius: 10px;
+}
+
+#getinvolved-section h2, #donate-section h2 {
+    color: #697018;
+    margin-bottom: 0px;
+}
+
+
+#donate-section img  ,#getinvolved-section img{
+    width: auto;
+    height: 200px;
+    object-fit: cover;
+    object-position: top;
+    filter: grayscale(0%);
+    transition: filter 1s ease-in-out;
+}
+/* Footer */
+footer {
+    background-color: #16423C;
+    color: #E9EFEC;
+    text-align: center;
+    padding: 10px;
+    font-size: 14px;
+}
+footer a {
+    color: #E9EFEC;
+    text-decoration: none;
+}
+footer a:hover {
+    text-decoration: underline;
+}
+button a{
+    text-decoration: none;  
+    color: #d4c818;
+}
+button{
+    border: none;
+    cursor: pointer;
+    font-size: 15px;  
+    background-color: #fff;
+    border-radius: 5px; 
+  
+    
+}
+button :hover{
+    letter-spacing: 2px;
+    color: aqua;
+    transition: all 0.5s;
+    
+}

@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./resources/css/donation.css" type="text/css" rel="stylesheet">
+    <title>Donate to Grace Foundation</title>
+</head>
+<body>
+    <header>
+        <h1>Support Grace Foundation Kenya</h1>
+        <p>Your donation will help us empower vulnerable women and children in need.</p>
+    </header>
+
+    <!-- Bank Transfer Section -->
+    <section id="bank-transfer">
+        <h2>Donate via Bank Transfer</h2>
+        <p>To make a donation through bank transfer, please use the following details:</p>
+        <ul>
+            <li><strong>Bank Name:</strong> ABC Bank</li>
+            <li><strong>Account Name:</strong> Grace Foundation Kenya</li>
+            <li><strong>Account Number:</strong> 123456789</li>
+            <li><strong>Branch Code:</strong> 00100</li>
+            <li><strong>SWIFT Code:</strong> ABCDEFXX</li>
+        </ul>
+    </section>
+
+    <!-- Mobile Payment via Paybill -->
+    <section id="mobile-payment">
+        <h2>Donate via Mobile Payment (Paybill)</h2>
+        <p>To donate via mobile payment, please use the following Paybill number:</p>
+        <ul>
+            <li><strong>Paybill Number:</strong> 987654</li>
+            <li><strong>Account Name:</strong> Grace Foundation</li>
+        </ul>
+        <p>Instructions: Open your mobile wallet, select "Paybill," enter the Paybill number and your name as the account name, then enter the donation amount.</p>
+    </section>
+
+    <!-- Card Payment Section -->
+    <section id="card-payment">
+        <h2>Donate via Card</h2>
+        <form id="card-payment-form" action="process_donation.php" method="POST">
+            <label for="name">Full Name:</label>
+            <input type="text" id="name" name="name" placeholder="Your full name" required>
+
+            <label for="email">Email Address:</label>
+            <input type="email" id="email" name="email" placeholder="Your email" required>
+
+            <label for="card-number">Card Number:</label>
+            <input type="text" id="card-number" name="card-number" placeholder="XXXX-XXXX-XXXX-XXXX" required>
+
+            <label for="expiry">Expiry Date:</label>
+            <input type="month" id="expiry" name="expiry" required>
+
+            <label for="cvv">CVV:</label>
+            <input type="text" id="cvv" name="cvv" placeholder="CVV" required>
+
+            <label for="amount">Donation Amount (USD):</label>
+            <input type="number" id="amount" name="amount" placeholder="Amount in USD" required>
+
+            <button type="submit">Donate Now</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>Thank you for your generosity! For any questions, please contact us at audgway@yahoo.co.uk</p>
+    </footer>
+</body>
+</html>

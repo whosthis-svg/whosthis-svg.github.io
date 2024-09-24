@@ -1,0 +1,128 @@
+/* Body and Typography */
+body {
+    font-family: 'Inria Sans';
+    color: #16423C;
+    margin: 0;
+    background-color: #f4f4f9;
+    line-height: 1.6;
+    padding-bottom: 50px;
+}
+
+/* Header */
+header {
+    text-align: center;
+    background: linear-gradient(135deg, #16423C, #20b2aa);
+    color: white;
+    padding: 60px 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 50px;
+}
+
+header h1 {
+    font-size: 3em;
+    font-weight: bold;
+}
+
+header p {
+    font-size: 1.2em;
+    font-weight: 300;
+}
+
+/* Story Hero Section */
+#story-hero {
+    text-align: center;
+    margin: auto;
+    max-width: 900px;
+    padding: 20px;
+}
+
+.story-image {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.1);
+}
+
+blockquote {
+    font-style: italic;
+    font-size: 1.5em;
+    color: #20b2aa;
+    background-color: #f7f8f8;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    margin-top: 30px;
+    line-height: 1.8;
+}
+
+/* Story Content Section */
+#story-content {
+    max-width: 900px;
+    margin: auto;
+    padding: 40px;
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.1);
+    margin-bottom: 50px;
+}
+
+#story-content h2 {
+    font-size: 2.5em;
+    color: #16423C;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+#story-content h3 {
+    font-size: 2em;
+    color: #16423C;
+    margin-bottom: 20px;
+}
+
+#story-content p {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+    text-align: justify;
+}
+
+/* Call to Action Section */
+#call-to-action {
+    text-align: center;
+    padding: 60px 20px;
+    background-color: #16423C;
+    color: white;
+}
+
+#call-to-action h2 {
+    font-size: 2.5em;
+    margin-bottom: 30px;
+}
+
+#call-to-action p {
+    font-size: 1.2em;
+    margin-bottom: 30px;
+}
+
+.donate-btn {
+    display: inline-block;
+    padding: 15px 30px;
+    background-color: #20b2aa;
+    color: white;
+    text-decoration: none;
+    font-size: 1.5em;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.donate-btn:hover {
+    background-color: #0f2d29;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #16423C;
+    color: white;
+}
