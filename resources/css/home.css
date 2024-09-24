@@ -27,7 +27,7 @@ nav{
 header h1
 {
     font-family:Plaster; 
-    font-size: 4vw;
+    font-size: 5vw;
     margin: 0px;
     padding-top: 20px;
     line-height: 0px;
@@ -37,7 +37,7 @@ header h1
 header h2
 {
     font-family: 'Inria Sans';
-    font-size: 2vw;
+    font-size: 4vw;
     margin-top: 30px;
     padding-top: 5px;
     padding-bottom: 0px;
@@ -73,7 +73,7 @@ nav li a {
   }
 nav li a:hover {
     background-color:linear-gradient(90deg, #333,#E9EFEC);
-    font-size: 1.8em;
+    font-size: 2.5vw;
     border-bottom:#33a193 5px inset;
     padding-bottom: 5px;
     margin-bottom: 5px;
@@ -318,7 +318,7 @@ nav li a:hover {
     border-radius: 5px;
     border: none;
     cursor: pointer;
-    font-size: 15px;
+    font-size: 2vw;
 }
 
 #highlighted-story p {
@@ -395,7 +395,7 @@ footer {
     color: #E9EFEC;
     text-align: center;
     padding: 10px;
-    font-size: 14px;
+    font-size: 2vw;
 }
 footer a {
     color: #E9EFEC;
@@ -405,14 +405,14 @@ footer a:hover {
     text-decoration: underline;
 }
 button a{
-   font-size: 1.3vw;
+   font-size: 1.8vw;
     text-decoration: none;  
     color: #d4c818;
 }
 button{
     border: none;
     cursor: pointer;
-    font-size: 15px;  
+    font-size: 2px;  
     background-color: #fff;
     border-radius: 5px; 
   
