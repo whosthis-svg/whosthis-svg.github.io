@@ -348,7 +348,7 @@ nav li a:hover {
 }
 
 .featured-story-img {
-    max-width: 100%;
+    max-width: 50%;
     height:40vh;
     margin-top: 4vh;
     border-radius: 10px;
