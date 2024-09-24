@@ -27,7 +27,7 @@ nav{
 header h1
 {
     font-family:Plaster; 
-    font-size: 3em;
+    font-size: 4vw;
     margin: 0px;
     padding-top: 20px;
     line-height: 0px;
@@ -37,7 +37,7 @@ header h1
 header h2
 {
     font-family: 'Inria Sans';
-    font-size: .8em;
+    font-size: 1vw;
     margin-top: 30px;
     padding-top: 5px;
     padding-bottom: 0px;
@@ -111,7 +111,7 @@ nav li a:hover {
 }
 #leaf-1{
     max-width: 20vw;
-    max-height: 30vh;
+    max-height: 25vh;
     height: auto;
     border-radius: 0% 50%;
     float: right;
@@ -122,7 +122,7 @@ nav li a:hover {
   }
 #leaf-2{
     max-width: 20vw;
-    max-height: 30vh;
+    max-height: 25vh;
     height: auto;
     border-radius: 50% 0%;
     float: left;
