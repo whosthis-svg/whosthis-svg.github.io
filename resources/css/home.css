@@ -174,7 +174,8 @@ nav li a:hover {
 #projects-section {
     text-align: left;
     padding: 50px;
-    height:60vh;
+    height:70vh;
+    margin-bottom:5vh;
   }
   
   .card-container {
