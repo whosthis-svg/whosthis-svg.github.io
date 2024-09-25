@@ -86,7 +86,7 @@ nav li a:hover {
     background-position: center;
     background-repeat: no-repeat;
     height: 250px;
-    width: 100%;
+    width: 150%;
     position: relative;
     z-index: -1;
     
