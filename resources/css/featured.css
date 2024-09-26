@@ -1,10 +1,45 @@
+
+@font-face {
+    font-family: 'Poppins';
+    src: url('../fonts/Poppins/Poppins-Thin.ttf') format('truetype');
+    font-weight: 100;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: 'Poppins';
+    src: url('../fonts/Poppins/Poppins-ThinItalic.ttf') format('truetype');
+    font-weight: 100;
+    font-style: italic;
+  }
+  
+  @font-face {
+    font-family: 'Poppins';
+    src: url('../fonts/Poppins/Poppins-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: 'Poppins';
+    src: url('../fonts/Poppins/Poppins-LightItalic.ttf') format('truetype');
+    font-weight: 300;
+    font-style: italic;
+  }
+  
+  @font-face {
+    font-family: 'Poppins';
+    src: url('../fonts/Poppins/Poppins-Regular.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+  }
+
 /* Body and Typography */
 body {
-    font-family: 'Inria Sans';
+    font-family: 'Poppins';
     color: #16423C;
     margin: 0;
     background-color: #f4f4f9;
-    line-height: 4vw;
     padding-bottom: 50px;
 }
 
@@ -19,12 +54,12 @@ header {
 }
 
 header h1 {
-    font-size: 5vw;
+    font-size: 3rem;
     font-weight: bold;
 }
 
 header p {
-    font-size: 2vw;
+    font-size: 1.2rem;
     font-weight: 300;
 }
 
@@ -46,14 +81,14 @@ header p {
 
 blockquote {
     font-style: italic;
-    font-size: 2vw;
+    font-size: 1.2rem;
     color: #20b2aa;
     background-color: #f7f8f8;
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
     margin-top: 30px;
-    line-height: 1.8;
+  
 }
 
 /* Story Content Section */
@@ -68,20 +103,20 @@ blockquote {
 }
 
 #story-content h2 {
-    font-size: 4vw;
+    font-size: 2rem;
     color: #16423C;
     text-align: center;
     margin-bottom: 30px;
 }
 
 #story-content h3 {
-    font-size: 3vw;
+    font-size: 1.8rem;
     color: #16423C;
     margin-bottom: 20px;
 }
 
 #story-content p {
-    font-size: 2vw;
+    font-size: 1.2rem;
     margin-bottom: 20px;
     text-align: justify;
 }
@@ -95,12 +130,12 @@ blockquote {
 }
 
 #call-to-action h2 {
-    font-size: 4vw;
+    font-size: 2rem;
     margin-bottom: 30px;
 }
 
 #call-to-action p {
-    font-size: 2vw;
+    font-size: 1.2rem;
     margin-bottom: 30px;
 }
 
@@ -110,7 +145,7 @@ blockquote {
     background-color: #20b2aa;
     color: white;
     text-decoration: none;
-    font-size: 2vw;
+    font-size: 1.1rem;
     border-radius: 5px;
     transition: background-color 0.3s ease;
 }

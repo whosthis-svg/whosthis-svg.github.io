@@ -1,10 +1,44 @@
+@font-face {
+    font-family: 'Poppins';
+    src: url('../fonts/Poppins/Poppins-Thin.ttf') format('truetype');
+    font-weight: 100;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: 'Poppins';
+    src: url('../fonts/Poppins/Poppins-ThinItalic.ttf') format('truetype');
+    font-weight: 100;
+    font-style: italic;
+  }
+  
+  @font-face {
+    font-family: 'Poppins';
+    src: url('../fonts/Poppins/Poppins-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: 'Poppins';
+    src: url('../fonts/Poppins/Poppins-LightItalic.ttf') format('truetype');
+    font-weight: 300;
+    font-style: italic;
+  }
+  
+  @font-face {
+    font-family: 'Poppins';
+    src: url('../fonts/Poppins/Poppins-Regular.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+  }
 /* Body and Typography */
 body {
-    font-family: 'Inria Sans';
+    font-family: 'Poppins';
     background-color: #f7f8f8;
     color: #16423C;
     margin: 0;
-    font-size:2vw;
+    font-size:1.2rem;
     padding: 0;
 }
 #banner h1
@@ -19,7 +53,7 @@ header {
     padding: 50px 20px;
 }
 p{
-    font-size:2vw;
+    font-size:1.2rem;
 }
 
 
@@ -33,7 +67,7 @@ section {
 }
 
 h2 {
-    font-size: 4vw;
+    font-size: 2.5rem;
     margin-bottom: 20px;
 }
 
@@ -43,7 +77,7 @@ ul {
 }
 
 ul li {
-    font-size: 2vw;
+    font-size: 1.2rem;
     margin-bottom: 10px;
 }
 
@@ -54,13 +88,13 @@ form {
 }
 
 label {
-    font-size: 2vw;
+    font-size: 1.2rem;
     margin-top: 20px;
 }
 
 input {
     padding: 10px;
-    font-size: 2vw;
+    font-size: 1.2rem;
     margin-top: 5px;
     border: 1px solid #ccc;
     border-radius: 5px;
@@ -69,7 +103,7 @@ input {
 button {
     margin-top: 30px;
     padding: 15px;
-    font-size: 1.5vw;
+    font-size: 1.5rem;
     background-color: #16423C;
     color: white;
     border: none;

@@ -1,6 +1,41 @@
+@font-face {
+    font-family: 'Poppins';
+    src: url('../fonts/Poppins/Poppins-Thin.ttf') format('truetype');
+    font-weight: 100;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: 'Poppins';
+    src: url('../fonts/Poppins/Poppins-ThinItalic.ttf') format('truetype');
+    font-weight: 100;
+    font-style: italic;
+  }
+  
+  @font-face {
+    font-family: 'Poppins';
+    src: url('../fonts/Poppins/Poppins-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: 'Poppins';
+    src: url('../fonts/Poppins/Poppins-LightItalic.ttf') format('truetype');
+    font-weight: 300;
+    font-style: italic;
+  }
+  
+  @font-face {
+    font-family: 'Poppins';
+    src: url('../fonts/Poppins/Poppins-Regular.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+  }
+
 /* Body and Typography */
 body {
-    font-family: 'Inria Sans';
+    font-family: 'Poppins';
     color: #16423C;
     margin: 0;
     background-color: #f4f4f9;
@@ -19,12 +54,12 @@ header {
 }
 
 header h1 {
-    font-size: 5vw;
+    font-size: 3rem;
     font-weight: bold;
 }
 
 header p {
-    font-size: 2vw;
+    font-size: 1.2rem;
     font-weight: 300;
 }
 
@@ -41,7 +76,7 @@ header p {
 
 #join-form h2 {
     text-align: center;
-    font-size: 4vw;
+    font-size: 2.5rem;
     margin-bottom: 20px;
 }
 
@@ -51,13 +86,13 @@ form {
 }
 
 label {
-    font-size: 2vw;
+    font-size: 1.2rem;
     margin-top: 20px;
 }
 
 input, select, textarea {
     padding: 10px;
-    font-size: 2vw;
+    font-size: 1.2rem;
     margin-top: 5px;
     border: 1px solid #ccc;
     border-radius: 5px;
@@ -70,7 +105,7 @@ textarea {
 button {
     margin-top: 30px;
     padding: 15px;
-    font-size: 2vw;
+    font-size: 1.2rem;
     background-color: #16423C;
     color: white;
     border: none;
