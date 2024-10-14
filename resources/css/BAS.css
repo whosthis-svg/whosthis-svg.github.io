@@ -1,49 +1,17 @@
 @font-face {
     font-family: 'Poppins';
-    src: url('../fonts/Poppins/Poppins-Thin.ttf') format('truetype');
-    font-weight: 100;
-    font-style: normal;
-  }
-  
-  @font-face {
-    font-family: 'Poppins';
-    src: url('../fonts/Poppins/Poppins-ThinItalic.ttf') format('truetype');
-    font-weight: 100;
-    font-style: italic;
-  }
-  
-  @font-face {
-    font-family: 'Poppins';
     src: url('../fonts/Poppins/Poppins-Light.ttf') format('truetype');
     font-weight: 300;
     font-style: normal;
-  }
-  
-  @font-face {
-    font-family: 'Poppins';
-    src: url('../fonts/Poppins/Poppins-LightItalic.ttf') format('truetype');
-    font-weight: 300;
-    font-style: italic;
-  }
-  
-  @font-face {
-    font-family: 'Poppins';
-    src: url('../fonts/Poppins/Poppins-Regular.ttf') format('truetype');
-    font-weight: 400;
-    font-style: normal;
-  }
-/* Body and Typography */
+}
+
 body {
-    font-family: 'Poppins';
+    font-family: 'Poppins', sans-serif;
     background-color: #f7f8f8;
     color: #16423C;
     margin: 0;
-    font-size:1.2rem;
     padding: 0;
-}
-#banner h1
-{
-    font-size: 5vw;   
+    font-size: 1.2rem;
 }
 
 header {
@@ -52,10 +20,11 @@ header {
     color: white;
     padding: 50px 20px;
 }
-p{
-    font-size:1.2rem;
-}
 
+h1 {
+    font-size: 3.5rem;
+    margin-bottom: 20px;
+}
 
 section {
     padding: 40px 20px;
@@ -69,19 +38,21 @@ section {
 h2 {
     font-size: 2.5rem;
     margin-bottom: 20px;
+    color: #16423C;
 }
 
-ul {
-    list-style: none;
-    padding: 0;
-}
-
-ul li {
+p {
     font-size: 1.2rem;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
+    line-height: 1.6;
 }
 
-/* Form Styles */
+h3 {
+    font-size: 2rem;
+    margin-top: 30px;
+    color: #16423C;
+}
+
 form {
     display: flex;
     flex-direction: column;
@@ -92,12 +63,16 @@ label {
     margin-top: 20px;
 }
 
-input {
+input, textarea {
     padding: 10px;
     font-size: 1.2rem;
     margin-top: 5px;
     border: 1px solid #ccc;
     border-radius: 5px;
+}
+
+textarea {
+    resize: none;
 }
 
 button {
@@ -115,15 +90,20 @@ button:hover {
     background-color: #0f2d29;
 }
 
+a {
+    color: #16423C;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
 footer {
     text-align: center;
     padding: 20px;
     background-color: #16423C;
     color: white;
-    margin-top: 50px;
-}
-/*grey it out*/
-#card-payment{
-    opacity: 0.5;
-    pointer-events: none;
+    margin-top: 40px;
+    font-size: 1.1rem;
 }
